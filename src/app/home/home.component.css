@@ -13,12 +13,7 @@
     left: 13%;
     transform: translate(-50%,-50%);
 }
-.card  {
-    position: absolute;
-    top: 22%;
-    left: 11%;
-    transform: translate(-50%,-50%);
-}
+
 .homecontent h1
 {
     color: #ffffff;
@@ -28,16 +23,32 @@
 {
     margin-top: 10px;
 }
-@media screen and (max-width:600px)
+#carouselExampleIndicators
 {
-    .home img
-    {
-        height: 700px;
-    }
-
-    .homecontent h1
-{
-    font-size: 40px;
+    margin: 10px;
 }
-    
+#carouselExampleIndicators img
+{
+    height: 350px;
+}
+.container
+{
+    margin-top: 20px;
+}
+.demo
+{
+    margin: 120px;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.demo1
+{
+    margin-top: 100px;
+    margin-left: 10Px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+    background-color: #6c757d;
+    padding: 40px;
 }
